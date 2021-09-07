@@ -1,8 +1,8 @@
 package cn.dokey.springframework.test;
 
 import cn.dokey.springframework.test.bean.UserService;
-import com.dokey.springframework.beans.config.BeanDefinition;
-import com.dokey.springframework.beans.config.BeanFactory;
+import com.dokey.springframework.BeanDefinition;
+import com.dokey.springframework.BeanFactory;
 import org.junit.Test;
 
 /**
@@ -29,5 +29,7 @@ public class BeanFactoryTest {
         // 3.获取bean
         UserService userService = (UserService) beanFactory.getBean("userService");
         userService.queryUserInfo();
+
+
     }
 }

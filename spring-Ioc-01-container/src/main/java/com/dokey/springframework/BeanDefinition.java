@@ -1,4 +1,4 @@
-package com.dokey.springframework.beans.config;
+package com.dokey.springframework;
 
 /**
  * bean 定义

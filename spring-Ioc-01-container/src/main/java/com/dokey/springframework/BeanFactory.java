@@ -1,4 +1,4 @@
-package com.dokey.springframework.beans.config;
+package com.dokey.springframework;
 
 import java.util.concurrent.ConcurrentHashMap;
 
