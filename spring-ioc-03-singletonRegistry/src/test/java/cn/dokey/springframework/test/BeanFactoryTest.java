@@ -9,7 +9,7 @@ import org.junit.Test;
 /**
  * bean容器测试类
  *
- * @author: pengfei.li@advance.ai
+ * @author: huamao836@163.com
  * @date: 2021/9/3 2:31 下午
  * @version: V1.0
  */

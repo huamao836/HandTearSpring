@@ -8,7 +8,7 @@ import java.util.Map;
 /**
  * dokey@step#singletonRegistry 第3步：添加注册单例表的默认实现
  *
- * @author: pengfei.li@advance.ai
+ * @author: huamao836@163.com
  * @date: 2021/9/8 10:48 上午
  * @version: V1.0
  */

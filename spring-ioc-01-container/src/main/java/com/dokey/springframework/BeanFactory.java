@@ -5,7 +5,7 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * bean工厂类
  *
- * @author: pengfei.li@advance.ai
+ * @author: huamao836@163.com
  * @date: 2021/9/3 2:45 下午
  * @version: V1.0
  */

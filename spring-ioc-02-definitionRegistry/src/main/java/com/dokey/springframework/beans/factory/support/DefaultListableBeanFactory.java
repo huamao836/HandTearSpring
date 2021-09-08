@@ -9,7 +9,7 @@ import java.util.Map;
 /**
  * dokey@step#definitionRegistry 第9步:默认bean装配实现类
  *
- * @author: pengfei.li@advance.ai
+ * @author: huamao836@163.com
  * @date: 2021/9/7 5:05 下午
  * @version: V1.0
  */

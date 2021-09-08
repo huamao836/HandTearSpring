@@ -1,7 +1,7 @@
 package cn.dokey.springframework.test.bean;
 
 /**
- * @author: pengfei.li@advance.ai
+ * @author: huamao836@163.com
  * @date: 2021/9/3 2:53 下午
  * @version: V1.0
  */

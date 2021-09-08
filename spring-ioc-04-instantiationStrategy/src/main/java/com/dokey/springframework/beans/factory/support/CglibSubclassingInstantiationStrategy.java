@@ -11,7 +11,7 @@ import java.lang.reflect.Constructor;
  * cglib实例化策略
  * dokey@step#instantiationStrategy 第3步: cglib实例化策略
  *
- * @author: pengfei.li@advance.ai
+ * @author: huamao836@163.com
  * @date: 2021/9/8 5:02 下午
  * @version: V1.0
  */

@@ -9,7 +9,7 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * dokey@step#definitionRegistry: 第2步：创建抽象bean工厂类实现BeanFactory
  *
- * @author: pengfei.li@advance.ai
+ * @author: huamao836@163.com
  * @date: 2021/9/7 3:55 下午
  * @version: V1.0
  */

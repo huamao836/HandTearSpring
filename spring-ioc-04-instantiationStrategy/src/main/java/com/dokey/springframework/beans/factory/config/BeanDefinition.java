@@ -3,7 +3,7 @@ package com.dokey.springframework.beans.factory.config;
 /**
  * bean 定义
  *
- * @author: pengfei.li@advance.ai
+ * @author: huamao836@163.com
  * @date: 2021/9/3 2:42 下午
  * @version: V1.0
  */

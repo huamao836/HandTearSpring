@@ -4,7 +4,7 @@ package com.dokey.springframework.beans.factory.config;
  * 注册单例：
  *  dokey@step#singletonRegistry 第1步:将注册单例抽象成顶层接口，即，注册单例表
  *
- * @author: pengfei.li@advance.ai
+ * @author: huamao836@163.com
  * @date: 2021/9/8 10:29 上午
  * @version: V1.0
  */

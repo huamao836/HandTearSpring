@@ -10,7 +10,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * 创建抽象bean工厂类实现BeanFactory
  * dokey@step#singletonRegistry 第6步：抽象AbstractBeanFactory继承单例注册表默认实现
  *
- * @author: pengfei.li@advance.ai
+ * @author: huamao836@163.com
  * @date: 2021/9/7 3:55 下午
  * @version: V1.0
  */

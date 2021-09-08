@@ -9,7 +9,7 @@ import java.lang.reflect.InvocationTargetException;
 /**
  * 简单带参构造的实例化
  *  dokey@step#instantiationStrategy 第5步: jdk实现带参构造的实例化
- * @author: pengfei.li@advance.ai
+ * @author: huamao836@163.com
  * @date: 2021/9/8 5:07 下午
  * @version: V1.0
  */
