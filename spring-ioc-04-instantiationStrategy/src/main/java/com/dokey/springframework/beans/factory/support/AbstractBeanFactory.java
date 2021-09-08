@@ -23,14 +23,41 @@ public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry i
      * @throws BeansException
      */
     public Object getBean(String beanName) throws BeansException {
-        // dokey@step#singletonRegistry 第7步：默认是从容器中获取单例
-        Object bean = getSingleton(beanName);
-        if (null != bean) {
-            return bean;
-        }
-        BeanDefinition beanDefinition = getBeanDefinition(beanName);
-        return createBean(beanName, beanDefinition);
+        return doGetBean(beanName, null);
     }
+
+    /**
+     * dokey@step#instantiationStrategy 第10步: 获取有参构造的bean实例
+     *
+     * @param name
+     * @param args
+     * @return
+     * @throws BeansException
+     */
+    @Override
+    public Object getBean(String name, Object... args) throws BeansException {
+        return doGetBean(name, args);
+    }
+
+
+    /**
+     * dokey@step#instantiationStrategy 第9步: 抽取公用getbean方法
+     *
+     * @param name
+     * @param args
+     * @param <T>
+     * @return
+     */
+    protected <T> T doGetBean(final String name, final Object[] args) {
+        Object bean = getSingleton(name);
+        if (bean != null) {
+            return (T) bean;
+        }
+
+        BeanDefinition beanDefinition = getBeanDefinition(name);
+        return (T) createBean(name, beanDefinition, args);
+    }
+
 
     /**
      * dokey@step#definitionRegistry:第5步:获取bean定义
@@ -42,12 +69,12 @@ public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry i
     protected abstract BeanDefinition getBeanDefinition(String beanName) throws BeansException;
 
     /**
-     * dokey@step#definitionRegistry:第6步: 创建bean
+     * dokey@step#instantiationStrategy 第11步: 扩展createBean为支持参构造
      *
      * @param beanName
      * @param beanDefinition
      * @return
      * @throws BeansException
      */
-    protected abstract Object createBean(String beanName, BeanDefinition beanDefinition) throws BeansException;
+    protected abstract Object createBean(String beanName, BeanDefinition beanDefinition, Object[] args) throws BeansException;
 }

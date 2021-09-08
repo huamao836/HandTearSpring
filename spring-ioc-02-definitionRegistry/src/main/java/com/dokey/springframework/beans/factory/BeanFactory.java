@@ -1,9 +1,8 @@
 package com.dokey.springframework.beans.factory;
 
-import com.dokey.springframework.beans.BeansException;
 
 /**
- * dokey@step#definitionRegistry 第一步：将beanFactory抽象为抽象工厂类
+ * dokey@step#definitionRegistry 第1步：将beanFactory抽象为抽象工厂类
  *
  * @author: pengfei.li@advance.ai
  * @date: 2021/9/3 2:45 下午

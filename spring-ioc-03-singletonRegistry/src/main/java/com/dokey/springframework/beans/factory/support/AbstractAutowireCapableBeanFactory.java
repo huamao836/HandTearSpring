@@ -28,6 +28,8 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
         } catch (InstantiationException | IllegalAccessException e) {
             throw new BeansException("Instantiation of bean failed", e);
         }
+        // dokey@step#singletonRegistry 第8步：默认是实例化为单例
+        addSingleton(beanName, bean);
         return bean;
     }
 }
